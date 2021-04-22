@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -22,17 +24,85 @@
             <!--<svg class="icon icon-search" height="19" width="19">
                 <use xlink:href="img/icons.svg#Shape"></use>
             </svg>-->
-            <img src="Shape.svg" alt="icon-search" class="icon-search" height="19" width="19">
+            <img src="img/Shape.svg" alt="icon-search" class="icon-search" height="19" width="19">
         </div>
        <div class="icons-button">
-           <button class="button-icon vid"><img src="video.svg" alt="" width="27" height="20"></button>
-           <button class="button-icon combo"><img src="Combined.svg" alt="" height="21" width="21"></button>
-            <button class="button-icon din-don"><img src="din-don.svg" alt="" width="22" height="26"></button>
+           <button class="button-icon vid"><img src="img/video.svg" alt="" width="27" height="20"></button>
+           <button class="button-icon combo"><img src="img/Combined.svg" alt="" height="21" width="21"></button>
+            <button class="button-icon din-don"><img src="img/din-don.svg" alt="" width="22" height="26"></button>
        </div> <!--ПОДУМАТЬ НАД ТЕМ СДЕЛАТЬ ЛИ КНОПКОЙ ИЛИ ССЫЛКОЙ-->
        <button class="user">
-           <img src="Arashan.jpg" alt="User avatar" class="user-avatar" height="40" width="40">
+           <img src="img/Arashan.jpg" alt="User avatar" class="user-avatar" height="40" width="40">
        </button>
        <!-- /.user -->
     </header>
+    <div class="container">
+        <aside class="sidebar">
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/home.svg" alt="Home" height="19" width="20" class="icon">
+                        <span class="nav-text one">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/trending.svg" alt="Trending" height="21" width="18" class="icon">
+                        <span class="nav-text two">Trending</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/Subscriptions.svg" alt="Subscriptions" height="18" width="18" class="icon">
+                        <span class="nav-text three">Subscriptions</span></a>
+                    </li>
+                </ul>
+                <!---------------------------------Конец первого столбца-------------------------------------->
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/Library.svg" alt="Library" height="20" width="18"class="icon">
+                            <span class="nav-text">Library</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/history.svg" alt="history" height="19" width="18"class="icon">
+                            <span class="nav-text">History</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/watch later.svg" alt="Wath later" height="18" width="18"class="icon">
+                            <span class="nav-text">Wath later</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/favorites.svg" alt="favorites" height="19" width="18"class="icon">
+                            <span class="nav-text">Favorites</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/like.svg" alt="Liked" height="19" width="18"class="icon">
+                            <span class="nav-text">Liked videos</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/games.svg" alt="Games" height="22" width="18"  class="icon">
+                            <span class="nav-text">Games</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/show more.svg" alt="Show more" height="14" width="18"  class="icon">
+                            <span class="nav-text">Show more</span></a>
+                    </li>
+                </ul>
+                <h2 class="nav-title">Subscriptions</h2>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="img/subscriptions/start-cooking.jpg" alt="" height="26" width="26" class="nav-image"><span class="nav-text">Start cooking!</span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="img/subscriptions/travel.jpg" alt="" height="26" width="26" class="nav-image"><span class="nav-text">Real travel</span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="img/subscriptions/auto.jpg" alt="" height="26" width="26" class="nav-image"><span class="nav-text">Sport auto</span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="img/subscriptions/healthy food.jpg" alt="" height="26" width="26" class="nav-image"><span class="nav-text">Healthy food</span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="img/subscriptions/Macaron.jpg" alt="" height="26" width="26" class="nav-image"><span class="nav-text">Macaron</span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="img/subscriptions/comfort.jpg" alt="" height="26" width="26" class="nav-image"><span class="nav-text">Your comfort</span></a></li>
+                </ul>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="img/setting.svg" alt="Setting" height="19" width="20">
+                            <span class="nav-text">Setting</span></a>
+                    </li>
+                    </ul>
+                    </nav>
+        </aside>
+
+        </div>
+    </div>
 </body>
 </html>

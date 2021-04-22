@@ -1,100 +1,8 @@
-/*ОБНУЛЯЕМ*/
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-:focus,
-:active {
-  outline: none;
-}
-a:focus,
-a:active {
-  outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
-}
-
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-input[type="text"]::-ms-clear {
-  display: none;
-  width: 0;
-  height: 0;
-}
-input[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-button {
-  cursor: pointer;
-}
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-a,
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
-ul li {
-  list-style: none;
-}
-img {
-  vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: 400;
 }
 
 /*-------------------------------------*/
@@ -103,7 +11,9 @@ h6 {
 }
 
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header {
@@ -113,6 +23,7 @@ body {
   padding-right: 70px;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .menu-button {
@@ -216,4 +127,48 @@ body {
 
 .user-avatar:hover {
   cursor: pointer;
+}
+
+.sidebar {
+  padding-left: 32px;
+}
+
+.nav-menu {
+  margin-right: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-item {
+  margin-bottom: 29px;
+}
+.nav-text {
+  margin-left: 13px;
+}
+.one {
+  margin-left: 11px;
+}
+
+.nav-text {
+  color: #898989;
+}
+
+.nav-text:hover {
+  color: #ff0000;
+}
+.nav-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-image {
+  border-radius: 50%;
+}
+.nav-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
 }
